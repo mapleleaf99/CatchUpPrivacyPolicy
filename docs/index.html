@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CatchUp · Privacy Policy</title>
+  <meta name="description" content="Privacy Policy for CatchUp — personal relationship follow-up app." />
+  <style>
+    :root {
+      --bg: #F2F2F7;
+      --ink: #1C1C1E;
+      --muted: #6C6C70;
+      --accent: #2E6BF2;
+      --card: #ffffff;
+      --line: rgba(0,0,0,.06);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    .brand {
+      color: var(--accent);
+      font-weight: 700;
+      letter-spacing: .02em;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      margin: 0 0 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: .95rem;
+      margin-bottom: 28px;
+    }
+    .lang {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+    .lang a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: .9rem;
+      padding: 6px 12px;
+      background: rgba(46, 107, 242, .12);
+      border-radius: 999px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 24px 22px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.04);
+      border: 1px solid var(--line);
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 28px 0 10px;
+    }
+    h2:first-child { margin-top: 0; }
+    p, li { color: var(--ink); }
+    ul { padding-left: 1.2em; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); }
+    .section { display: none; }
+    .section.active { display: block; }
+    footer {
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: .85rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">CatchUp</div>
+    <h1 id="page-title">隐私政策</h1>
+    <p class="meta" id="page-updated">更新日期：2026-08-05</p>
+
+    <div class="lang">
+      <a href="#zh" onclick="showLang('zh'); return false;">中文</a>
+      <a href="#en" onclick="showLang('en'); return false;">English</a>
+    </div>
+
+    <div class="card section active" id="zh">
+      <h2>引言</h2>
+      <p>欢迎使用 CatchUp。我们重视你的隐私。本政策说明本应用如何处理与隐私相关的信息。</p>
+
+      <h2>1. 我们收集哪些信息</h2>
+      <ul>
+        <li><strong>你创建的内容</strong>：联系人姓名、公司、职位、电话、邮箱、跟进频率、互动记录与备注等，保存在你的设备本地；若启用 Apple iCloud，可在你自己的设备之间同步。</li>
+        <li><strong>我们不运营自建业务服务器</strong>来存储你的联系人与跟进内容，因此开发者无法像传统账号系统那样在自有后台查看你的数据。</li>
+        <li><strong>通讯录</strong>：仅在你主动使用「从设备导入」并点选某一联系人时，通过系统 ContactPicker 读取你选中的信息；我们不会申请完整通讯录读写权限，也不会写回系统通讯录。</li>
+        <li><strong>订阅与支付</strong>：由 Apple App Store / StoreKit 处理（上架后）。我们无法获取你的完整银行卡等支付敏感信息。</li>
+        <li><strong>诊断信息（如有）</strong>：若你通过系统向 Apple 或开发者反馈崩溃等问题，可能包含设备型号、系统版本等技术信息，仅用于排查问题。</li>
+      </ul>
+
+      <h2>2. 信息如何使用</h2>
+      <p>上述信息仅用于提供产品功能，包括：人脉跟进提醒、互动记录、本地通知、数据导出（如 PDF）等。我们不会出售你的个人内容。本应用不接入第三方分析 SDK。</p>
+
+      <h2>3. 权限说明</h2>
+      <ul>
+        <li><strong>通知</strong>：用于在约定的跟进时间提醒你。你可以随时在系统设置中关闭。</li>
+        <li><strong>通讯录（受限）</strong>：仅用于你主动挑选并导入单个联系人，不会扫描或上传整个通讯录。</li>
+      </ul>
+
+      <h2>4. 第三方服务</h2>
+      <p>本应用依赖 Apple 提供的能力与服务，例如：App Store、StoreKit、iCloud / CloudKit（如已启用）、系统通知、ContactsUI 等。这些服务受 Apple 相关政策约束。</p>
+
+      <h2>5. 数据存储、同步与删除</h2>
+      <ul>
+        <li>内容默认存储在你的设备；开启 iCloud 后，同步至你的 Apple 账户对应的 iCloud 私有数据。</li>
+        <li>你可以在 App 内删除联系人与互动记录；也可通过删除 App、管理 iCloud 存储等方式移除相关数据。</li>
+        <li>删除 App 内联系人不会删除或修改系统通讯录中的对应条目。</li>
+        <li>取消订阅请在 Apple ID 的订阅管理中操作。</li>
+      </ul>
+
+      <h2>6. 儿童隐私</h2>
+      <p>本应用不面向 13 岁以下儿童设计，也不会有意收集儿童的个人信息。</p>
+
+      <h2>7. 政策更新</h2>
+      <p>我们可能适时更新本政策。更新后会在本页面调整「更新日期」。继续使用即表示你知悉更新后的内容。</p>
+
+      <h2>8. 联系我们</h2>
+      <p>如对本隐私政策有疑问，请通过邮件联系：</p>
+      <p><a href="mailto:guofeifeng9@gmail.com">guofeifeng9@gmail.com</a></p>
+
+      <h2 id="terms-zh">9. 服务条款（摘要）</h2>
+      <p>CatchUp 以「现状」提供，用于个人跟进提醒。订阅与退款规则以 Apple App Store 为准。使用本应用即表示你同意遵守适用的 Apple 媒体服务条款，并自行对你录入的内容负责。</p>
+    </div>
+
+    <div class="card section" id="en">
+      <h2>Introduction</h2>
+      <p>Welcome to CatchUp. We respect your privacy. This policy explains how the app handles privacy-related information.</p>
+
+      <h2>1. Information We Handle</h2>
+      <ul>
+        <li><strong>Content you create</strong>: contact names, company, title, phone, email, follow-up frequency, interaction history and notes are stored on your device and may sync across your devices via Apple iCloud when enabled.</li>
+        <li><strong>No self-operated content server</strong>: we do not run our own backend to store your contacts or follow-up content, so we cannot browse your data on a private server like a traditional account system.</li>
+        <li><strong>Contacts</strong>: only when you use “Import from Device” and explicitly pick a contact via the system ContactPicker. We do not request full address-book read/write access, and we never write back to your system Contacts.</li>
+        <li><strong>Subscriptions & payments</strong>: processed by the Apple App Store / StoreKit (after release). We do not receive your full payment card details.</li>
+        <li><strong>Diagnostics (if any)</strong>: crash or feedback reports may include technical details such as device model and OS version, used only for troubleshooting.</li>
+      </ul>
+
+      <h2>2. How Information Is Used</h2>
+      <p>Information is used solely to provide product features such as follow-up reminders, interaction logging, local notifications, and data export (e.g. PDF). We do not sell your personal content. The app does not include third-party analytics SDKs.</p>
+
+      <h2>3. Permissions</h2>
+      <ul>
+        <li><strong>Notifications</strong>: used to remind you at scheduled follow-up times. You can turn this off in system settings at any time.</li>
+        <li><strong>Contacts (limited)</strong>: used only when you actively pick and import a single contact; we do not scan or upload your entire address book.</li>
+      </ul>
+
+      <h2>4. Third-Party Services</h2>
+      <p>The app relies on Apple services and frameworks, including the App Store, StoreKit, iCloud / CloudKit (when enabled), system notifications, and ContactsUI. Those services are governed by Apple’s policies.</p>
+
+      <h2>5. Storage, Sync, and Deletion</h2>
+      <ul>
+        <li>Content is stored on your device by default; with iCloud enabled, it syncs to private iCloud data associated with your Apple ID.</li>
+        <li>You may delete contacts and interactions in the app, or remove related data by deleting the app / managing iCloud storage.</li>
+        <li>Deleting a contact inside CatchUp does not delete or modify the corresponding entry in your system Contacts.</li>
+        <li>To cancel a subscription, manage it in your Apple ID subscription settings.</li>
+      </ul>
+
+      <h2>6. Children’s Privacy</h2>
+      <p>The app is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+      <h2>7. Changes</h2>
+      <p>We may update this policy from time to time. The “Last updated” date on this page will be revised accordingly.</p>
+
+      <h2>8. Contact</h2>
+      <p>For privacy questions, contact:</p>
+      <p><a href="mailto:guofeifeng9@gmail.com">guofeifeng9@gmail.com</a></p>
+
+      <h2 id="terms-en">9. Terms of Use (Summary)</h2>
+      <p>CatchUp is provided “as is” for personal follow-up reminders. Subscriptions and refunds are governed by the Apple App Store. By using the app, you agree to applicable Apple Media Services Terms and are responsible for the content you enter.</p>
+    </div>
+
+    <footer>
+      CatchUp · Privacy Policy · GitHub Pages
+    </footer>
+  </div>
+
+  <script>
+    function showLang(lang) {
+      document.querySelectorAll('.section').forEach(el => el.classList.remove('active'));
+      document.getElementById(lang).classList.add('active');
+      if (lang === 'en') {
+        document.getElementById('page-title').textContent = 'Privacy Policy';
+        document.getElementById('page-updated').textContent = 'Last updated: August 5, 2026';
+        document.documentElement.lang = 'en';
+      } else {
+        document.getElementById('page-title').textContent = '隐私政策';
+        document.getElementById('page-updated').textContent = '更新日期：2026-08-05';
+        document.documentElement.lang = 'zh-Hans';
+      }
+      history.replaceState(null, '', '#' + lang);
+    }
+    if (location.hash === '#en') showLang('en');
+  </script>
+</body>
+</html>
